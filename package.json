@@ -1,0 +1,14 @@
+{
+  "name": "wechat-ocr-js",
+  "version": "1.0.0",
+  "description": "WeChat OCR wrapper for Node.js",
+  "main": "wechatOcr.js",
+  "scripts": {
+    "start": "node wechatOcr.js"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3",
+    "ref-wchar-napi": "^1.0.3"
+  }
+}
