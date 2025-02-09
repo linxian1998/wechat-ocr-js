@@ -12,9 +12,12 @@ npm start
 2. 本地的visual Studio是2017的，没有的话，去网上找一个installer。PS：不是vscode。
 3. 用管理员权限打开powerShell，npm install --global --production windows-build-tools
 4. 下面的操作在vscode或者普通的cmd里面就可以了，npm config set msvs_version 2017
-5. npm i node-gyp -g  
-6. npm config set python python2.7 顺便记得下载2.7版本的python
+5. npm config set python python2.7 顺便记得下载2.7版本的python
+6. npm i node-gyp -g  
 7. 如果顺利的话，你可以正常 npm install ffi-napi 这一步成功了的话，后续就没有啥问题了
+
+下面是node-gyp安装的官网的截图
+![alt text](a972708e766090537f4c3e2c3c997db.png)
 ## 设置本地微信ocr相关路径
 设置自己的weChatOcr.exe路径和微信安装路径（mmmojo.ddl）在的那个path，可以用everything 这个工具搜索weChatOcr.exe和mmmojo.ddl
 
